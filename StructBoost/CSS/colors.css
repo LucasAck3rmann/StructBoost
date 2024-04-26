@@ -1,0 +1,21 @@
+/* Primary Colors */
+
+:root {
+  --Pink-10: #f67acb;
+  --Pink-20: #cf62a9;
+  --Pink-30: #9d457f;
+}
+
+/* Gray Colors */
+
+:root {
+  --Gray-900: #0a0b0d;
+  --Gray-800: #393b42;
+  --Gray-700: #5c5f69;
+  --Gray-600: #787c87;
+  --Gray-500: #979ba6;
+  --Gray-400: #abafba;
+  --Gray-300: #c0c3cc;
+  --Gray-200: #dfe1e8;
+  --Gray-100: #f5f6fa;
+}
