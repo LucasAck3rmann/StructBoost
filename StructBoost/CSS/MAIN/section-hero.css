@@ -1,0 +1,67 @@
+.s-hero {
+  position: relative;
+  width: 100%;
+  padding-top: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.s-hero::after {
+  content: "";
+  width: 100%;
+  height: 220px;
+  background-color: var(--Pink-10);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.s-hero-text {
+  position: relative;
+  width: 100%;
+  max-width: 719px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.s-hero-text h1 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: -1.68px;
+}
+
+.s-hero-text h1::before {
+  content: "";
+  width: 100%;
+  height: 22px;
+  max-width: 599px;
+  background: url("/StructBoost/ASSETS/Hero/line-stroke-section-hero.svg")
+    no-repeat center center;
+  position: absolute;
+  left: 39px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+.s-hero-text p {
+  max-width: 556px;
+  margin: 0 auto;
+  letter-spacing: -0.54px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  color: var(--Gray-300);
+}
+
+.s-hero-arrow {
+  position: absolute;
+  left: 55px;
+  bottom: 17px;
+}
+
+.s-hero-frame {
+  padding: 0 15px;
+}
